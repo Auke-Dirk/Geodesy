@@ -1,11 +1,11 @@
 define(
 	[ 
 	"matrix", 
-	"math/transformations/functions/geodetic2cartesian", //verified
+	"math/transformations/functions/geographic2cartesian", //verified
 	"math/transformations/functions/geodetic2ecef", // verified
 	"math/transformations/functions/ecef2enu_rotation", // verified
 	"math/transformations/functions/enu2ecf",
-	"math/transformations/functions/cartesian2geogdetic",
+	"math/transformations/functions/cartesian2geographic",
 	"math/transformations/functions/ecef2geo",
 	"math/transformations/functions/ecef2enu"
 	
