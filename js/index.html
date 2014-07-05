@@ -286,8 +286,8 @@ function   (Transform)
 <!-----------------------------ECEF 2 ENU ROTATION ----------------------------------------------->
 <h3 id= 'description'><a id='ecef2enurotation'>Provides the rotation matrix needed for the ECEF to ENU conversion.</a></h3>
 <pre>
-requirejs(['datums/models/ModelGeodeticENU',"math/transformations/transform"],
-function   (Model, Transform) 
+requirejs("math/transformations/transform"],
+function   (Transform) 
 {
 	var t = new Transform();
 	var location = $V([53.1234, 6.1234, 2.1234]);
